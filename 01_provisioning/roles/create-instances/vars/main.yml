@@ -1,0 +1,10 @@
+---
+# vars file for create-instances
+# Theses my preferences, but you can use your own.
+instance_type: t2.medium
+sec_group_name: lab-cluster-k8s
+image: ami-077d5d3682940b34a
+keypair: ansible-lab
+region: sa-east-1
+count: 3
+profile: lab-cluster-k8s
